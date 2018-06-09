@@ -1,0 +1,15 @@
+.decorative-separator {
+	position: relative;
+
+
+	img {
+		position: absolute;
+		top: -50%;
+		left: -20%;
+		transform: translateY(-50%);
+	}
+}
+
+.fl-builder-edit .decorative-separator img {
+	z-index: -1;
+}

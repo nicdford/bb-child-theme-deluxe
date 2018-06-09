@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"file": "../../dist/uniontown-styles.css",
+	"sources": [
+		"../uniontown-styles.scss"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,IAAI,AAAC,CACD,gBAAgB,CAAC,GAAG,CACvB"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "BB Child Theme Deluxe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass --output-style compressed scss/src -o scss/dist --source-map scss/src/sourcemaps",
+    "scss:watch": "node-sass --output-style compressed -w scss/src -o scss/dist"
+  },
+  "author": "Nic Ford",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.9.0"
+  }
+}
