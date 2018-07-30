@@ -7,7 +7,10 @@
     "scss": "node-sass --output-style compressed scss/src -o scss/dist --source-map scss/src/sourcemaps",
     "scss:watch": "node-sass --output-style compressed -w scss/src -o scss/dist"
   },
-  "author": "Nic Ford",
+  "scriptsComments": {
+    "start": "Optional method of compiling sass. Also recommend use of WP-SCSS plugin for remote-server compiling."
+  },
+  "author": "Nic Ford", 
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^4.9.0"
