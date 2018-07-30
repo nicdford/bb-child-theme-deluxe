@@ -4,13 +4,13 @@
  *
  * @since 1.7
  */
-final class UniontownShortcodes {
+final class bbChildThemeDeluxeShortcodes {
 
 	/**
 	 * Add shortcodes available in theme.
 	 */
 	static public function init() {
-		add_shortcode( 'nwm_decorative_separator', array( 'UniontownShortcodes', 'nwm_decorative_separator' ) );
+		add_shortcode( 'nwm_decorative_separator', array( 'bbChildThemeDeluxeShortcodes', 'nwm_decorative_separator' ) );
 	}
 
 	/**
@@ -36,4 +36,4 @@ final class UniontownShortcodes {
 	}
 
 }
-UniontownShortcodes::init();
+bbChildThemeDeluxeShortcodes::init();
