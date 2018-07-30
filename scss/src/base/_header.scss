@@ -5,7 +5,7 @@
     margin-bottom: -22px;
 }
 .fl-page-bar {
-    background-color: $primary-blue;
+    background-color: $primary-color;
     border-bottom: none;
 }
 
@@ -23,14 +23,14 @@
 
 .fl-page-bar .navbar-nav li > a:hover,
 .fl-page-bar .navbar-nav li > a:focus {
-    color: $primary-gold;
+    color: $secondary-color;
 }
 
     /* Temperature */
     .temperature {
         display: inline-block;
         font-size: 24px;
-        color: $primary-gold;
+        color: $secondary-color;
         line-height: 1;
     }
 
@@ -70,7 +70,7 @@
         left: 0;
         width: 100%;
         height: 3px;
-        background: $primary-gold;
+        background: $secondary-color;
         content: '';
         -webkit-transition: -webkit-transform 0.3s;
         -moz-transition: -moz-transform 0.3s;
@@ -103,14 +103,10 @@
     }
 
 /* Header Style */
-.fl-page-header {
-    background-color: $primary-blue;
-}
-
 .fl-page-nav-right .fl-page-nav-wrap .navbar-nav li > a:hover,
 .fl-page-nav-right .fl-page-nav-wrap .navbar-nav li > a:focus {
     // color: $white;
-    // background-color: $primary-gold;
+    // background-color: $secondary-color;
     // padding: 8px 0;
 }
 
