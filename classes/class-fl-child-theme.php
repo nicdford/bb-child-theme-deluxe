@@ -14,9 +14,9 @@ final class FLChildTheme {
      */
     static public function enqueue_scripts()
     {
-        // wp_enqueue_style( 'uniontown-typekit', 'https://use.typekit.net/xyx7zdk.css');
+        
         wp_enqueue_style( 'fl-child-theme', FL_CHILD_THEME_URL . '/style.css' );
-        wp_enqueue_style( 'bb-child-theme-dexlue-styles', FL_CHILD_THEME_URL . '/scss/dist/uniontown-styles.css', array(), time() );
+        wp_enqueue_style( 'bb-child-theme-dexlue-styles', FL_CHILD_THEME_URL . '/scss/dist/deluxe-styles.css', array(), time() );
 
         wp_enqueue_script( 'bb-child-theme-dexlue-scripts', FL_CHILD_THEME_URL . '/js/scripts.js', array(), time() );
 
