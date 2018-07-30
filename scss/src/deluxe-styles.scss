@@ -1,10 +1,12 @@
 @import "libs/flickity";
+
 @import "global/colors";
 @import "global/typography";
+@import "global/mixins";
 
 @import "base/header";
 @import "base/body";
 @import "base/footer";
 
-@import "modules/homepage-hero";
+@import "modules/button";
 @import "modules/decorative-seperator";

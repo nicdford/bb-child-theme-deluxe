@@ -1,0 +1,5 @@
+@mixin prefix-bb-module-content {
+	.fl-builder .fl-builder-content {
+		@content;
+	}
+}
