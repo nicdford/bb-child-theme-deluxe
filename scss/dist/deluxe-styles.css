@@ -137,7 +137,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 28px;
 }
 p {
-  color: #ff2d65;
+  color: #e29134;
 }
 .fl-page-bar .navbar-nav li > a {
   color: white;
@@ -146,13 +146,13 @@ p {
   padding-left: 25px;
 }
 .fl-page-bar .navbar-nav li > a:hover, .fl-page-bar .navbar-nav li > a:focus {
-  color: #ff2d65;
+  color: #e29134;
 }
 /* Temperature */
 .temperature {
   display: inline-block;
   font-size: 24px;
-  color: #ff2d65;
+  color: #e29134;
   line-height: 1;
 }
 /* Donate Button */
@@ -186,7 +186,7 @@ p {
   left: 0;
   width: 100%;
   height: 3px;
-  background: #ff2d65;
+  background: #e29134;
   content: '';
   -webkit-transition: -webkit-transform 0.3s;
   -moz-transition: -moz-transform 0.3s;
