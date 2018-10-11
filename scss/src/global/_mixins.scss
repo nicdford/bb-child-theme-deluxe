@@ -1,5 +1,52 @@
+/*********************
+Prefix Module Content
+*********************/
 @mixin prefix-bb-module-content {
 	.fl-builder .fl-builder-content {
 		@content;
 	}
+}
+
+/*********************
+BREAKPOINTS
+https://responsivedesign.is/develop/getting-started-with-sass-and-breakpoint-mixin/
+*********************/
+
+@mixin breakpoint($point) {
+  @if $point == desktop {
+    @media (min-width: 70em) {
+      @content;
+    }
+  } @else if $point == laptop {
+    @media (min-width: 64em) {
+      @content;
+    }
+  } @else if $point == tablet {
+    @media (min-width: 50em) {
+      @content;
+    }
+  } @else if $point == phablet {
+    @media (min-width: 37.5em) {
+      @content;
+    }
+  } @else if $point == mobileonly {
+    @media (max-width: 37.5em) {
+      @content;
+    }
+  }
+}
+
+/// Mixin to prefix a property
+/// https://css-tricks.com/snippets/sass/mixin-prefix-properties/
+/// @author Hugo Giraudel
+/// @param {String} $property - Property name
+/// @param {*} $value - Property value
+/// @param {List} $prefixes (()) - List of prefixes to print
+@mixin prefix($property, $value, $prefixes: ()) {
+  @each $prefix in $prefixes {
+    #{'-' + $prefix + '-' + $property}: $value;
+  }
+ 
+  // Output standard non-prefixed declaration
+  #{$property}: $value;
 }
