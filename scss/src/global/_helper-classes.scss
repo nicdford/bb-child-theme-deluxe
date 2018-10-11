@@ -1,0 +1,49 @@
+// Alignments
+@include breakpoint(desktop) {
+    .align-right--destkop * {
+        text-align: right;
+    }
+}
+
+// Effects
+.drop-shadow--text * {
+    text-shadow: 0 0 5px black;
+}
+
+.drop-shadow--box {
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, .25)inset;
+}
+
+.script--text {
+	font-family: 'lobster';
+}
+
+.button--two-line {
+	border-radius: 50px;
+	background: $primary-color;
+    border: none;
+    padding: 0px 0px;
+
+	.fl-button-text {
+		color: $white;
+		font-weight: bolder;
+		font-size: 18px;
+	}
+
+	&:hover, &:focus {
+		background: $primary-color;
+
+		.fl-button-text {
+			color: $white;
+		}
+	}
+}
+
+// Typography
+.sans-serif {
+	font-family: $sans-serif;
+	
+	&--bold {
+		font-weight: bolder;
+	}
+}
