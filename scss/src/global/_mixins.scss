@@ -36,8 +36,10 @@ https://responsivedesign.is/develop/getting-started-with-sass-and-breakpoint-mix
   }
 }
 
-/// Mixin to prefix a property
-/// https://css-tricks.com/snippets/sass/mixin-prefix-properties/
+/*********************
+Prefix Property Values
+https://css-tricks.com/snippets/sass/mixin-prefix-properties/
+*********************/
 /// @author Hugo Giraudel
 /// @param {String} $property - Property name
 /// @param {*} $value - Property value
