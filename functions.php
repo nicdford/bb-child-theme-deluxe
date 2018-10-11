@@ -11,6 +11,7 @@ require_once 'classes/class-shortcodes.php';
 // Includes
 require_once 'includes/extras.php';
 require_once 'includes/scss-variables.php';
+require_once 'includes/helper-classes.php';
 
 // Actions
 add_action( 'wp_enqueue_scripts', 'FLChildTheme::enqueue_scripts', 1000 );
