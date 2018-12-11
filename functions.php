@@ -7,9 +7,9 @@ define( 'FL_CHILD_THEME_URL', get_stylesheet_directory_uri() );
 // Classes
 require_once 'classes/class-fl-child-theme.php';
 require_once 'classes/class-shortcodes.php';
+require_once '/classes/class-tgm-plugin-activation.php';
 
 // Includes
-require_once get_stylesheet_directory() . '/includes//class-tgm-plugin-activation.php';
 require_once 'includes/extras.php';
 require_once 'includes/scss-variables.php';
 require_once 'includes/helper-classes.php';
