@@ -1,10 +1,4 @@
 <?php
-// Check if WP SCSS is active
-if ( ! is_plugin_active( 'wp-scss/wp-scss.php' ) ) {
- 
-    return;
- 
-}
 
 // Create customizer options in exsisting bb sections
 function bbdeluxe_customize_register($wp_customize){
