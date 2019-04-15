@@ -19,3 +19,4 @@ add_action( 'wp_enqueue_scripts', 'FLChildTheme::enqueue_scripts', 1000 );
 // Filters
 add_filter('upload_mimes', 'FLChildTheme::enable_svg_support');
 // add_filter('fl_builder_editing_enabled', 'FLChildTheme::enable_pods_on_front');
+add_filter('fl_builder_loop_query_args', 'FLChildTheme::enable_filter_only_display_child_pages');
