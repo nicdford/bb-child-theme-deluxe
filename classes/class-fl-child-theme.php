@@ -53,9 +53,7 @@ final class FLChildTheme {
   * @return $args
   */
   static public function enable_filter_only_display_child_pages($args)
-  {
-    // if ( strpos($args['settings']->class, 'only-show-child-pages') !== false ) $has_class = true;
-    
+  { 
     if ( FLBuilderModel::is_builder_enabled() && strpos($args['settings']->class, 'only-show-child-pages') !== false ) {
       $current_post_id = get_the_id();
       $args['post_parent'] = $current_post_id;
