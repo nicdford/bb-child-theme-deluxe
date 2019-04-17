@@ -2,6 +2,7 @@
 Prefix Module Content
 *********************/
 @mixin prefix-bb-module-content {
+  .fl-page-content,
   .fl-builder .fl-builder-content {
     @content;
   }
